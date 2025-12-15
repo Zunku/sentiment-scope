@@ -2,12 +2,12 @@
 ## AI-Powered Sentiment Analysis Pipeline
 
 [![Python](https://img.shields.io/badge/Python-3.11+-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://python.org)
-![SQL](https://img.shields.io/badge/SQL-black?style=for-the-badge&logo=sqlite&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-101010?style=for-the-badge&logo=sqlite&logoColor=white)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.124.0+-00a393?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=101010)](https://fastapi.tiangolo.com)
-[![Azure AI ML](https://img.shields.io/badge/Azure%20ML-1.7+-blue?style=for-the-badge&logo=airbrake&logoColor=white&labelColor=black)](https://azure.microsoft.com/es-mx)
+[![Azure AI ML](https://img.shields.io/badge/Azure%20ML-1.7+-blue?style=for-the-badge&logo=airbrake&logoColor=white&labelColor=101010)](https://azure.microsoft.com/es-mx)
 [![Docker](https://img.shields.io/badge/Docker-Container-0078d7?style=for-the-badge&logo=docker&logoColor=white&labelColor=101010&logoSize=auto)](https://hub.docker.com)
 [![Jupyter NB](https://img.shields.io/badge/Jupyter-notebooks-orange?style=for-the-badge&logo=jupyter&logoColor=white&labelColor=101010&logoSize=auto)](https://jupyter.org)
-![MLOps](https://img.shields.io/badge/MLOps-black?style=for-the-badge)
+![MLOps](https://img.shields.io/badge/MLOps-101010?style=for-the-badge)
 
 ![](./assets/github-cover.png)
 

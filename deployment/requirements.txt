@@ -8,3 +8,5 @@ scikit-learn==1.7.2
 scipy==1.16.3
 threadpoolctl==3.6.0
 tqdm==4.67.1
+
+# To access this necesary dependencies have to created a special environment only for docker. And then start iterating installing the dependencies that are missing when building the docker image. The terminal will show the missing dependencies.

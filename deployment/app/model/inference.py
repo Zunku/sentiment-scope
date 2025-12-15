@@ -4,6 +4,11 @@ from typing import cast
 
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
+import nltk
+nltk.download('stopwords')
+nltk.download('rslp')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 __version__ = '0.1.0'
 # __file__ Ubicacion del archivo actual
@@ -37,9 +42,7 @@ def predict_sentiment(text: str) -> tuple[str, float]:
     else:
         return "Positive", proba[0][1]
     
-print(predict_sentiment("Este produto é ótimo! Adorei a qualidade e o preço foi justo."))  # Expected: ("Positive", probability)
+# print(predict_sentiment("Este produto é ótimo! Adorei a qualidade e o preço foi justo."))  # Expected: ("Positive", probability)
 
-# Me salio el mismo error de que no se encuentra el modulo utils (elimine los imports que habian al inicio, cuando los corria en local no habia problema)
-# Quizas haya que restaurar los imports o que el docker tenga un archivo launch.json
-# Igual gpt me dio una solucion
-# Descansa!!! Te lo ganaste :)))))))
+# I got the same error saying the utils module couldn't be found (I removed the initial imports; there was no problem when running it locally).
+# I simply had to install the utils package in the Docker container environment.
