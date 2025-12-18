@@ -11,7 +11,9 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            // Asignarle el directorio del espacio de trabajo al Debugger (Brazilian-E-Commerce)
+            // Asignarle el directorio del espacio de trabajo al Debugger (Brazilian-E-Commerce) 
+            // Para que siempre se ejecute desde la raiz y tome en cuenta los paquetes.
+            // Si los instalas con pip install -e . desde la raiz del proyecto, no es necesario.
             "cwd": "${workspaceFolder}",
             "env": { "PYTHONPATH": "${workspaceFolder}" }
         }

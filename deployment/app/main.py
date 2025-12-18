@@ -20,3 +20,11 @@ def home():
 def predict(input_data: TextInput):
     sentiment, probability = predict_sentiment(input_data.text)
     return {"sentiment": sentiment, "probability": probability}
+
+# Example: curl -X 'POST' \
+#   'http://localhost/predict' \
+#   -H 'accept: application/json' \
+#   -H 'Content-Type: application/json' \
+#   -d '{
+#   "text": "O produto chegou no prazo, estou satisfeito com a minha compra."
+# }'

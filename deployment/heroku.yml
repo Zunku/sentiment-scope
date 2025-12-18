@@ -1,0 +1,6 @@
+# Heroku deployment configuration file
+# This file specifies the Dockerfile to be used for building the application
+
+build:
+  docker:
+    web: Dockerfile
