@@ -11,6 +11,7 @@
       <header>
         <h1>SentimentScope</h1>
         <p class="muted">Enter some text and the model will respond whether it is positive or negative.</p>
+        <p class="muted">It only works with Portuguese text. Please use a translator if needed</p>
       </header>
 
       <section class="card">
@@ -27,10 +28,15 @@
           </div>
           <p id="probText" class="muted"></p>
         </div>
+        <details id="explainPanel" class="explain hidden">
+          <summary>Explain prediction</summary>
+          <div id="explain"></div>
+          <div id="tokenHighlights" class="token-bar hidden"></div>
+        </details>
       </section>
 
       
-      <footer class="muted small">Simple Interface - In development</footer>
+      <footer class="muted small">SentimentScope</footer>
     </main>
     <script src="/static/js/app.js"></script>
   </body>

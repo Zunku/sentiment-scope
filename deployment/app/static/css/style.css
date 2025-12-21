@@ -22,3 +22,20 @@ button:disabled{opacity:.6;cursor:default}
 .bar{height:100%;width:0;background:linear-gradient(90deg,var(--accent),#06b6d4)}
 .small{font-size:0.85rem}
 footer{margin-top:18px;text-align:center}
+
+/* Explain panel styles */
+.explain {margin-top:12px}
+.explain-step{padding:12px;margin-bottom:12px;border-radius:8px;border:1px solid #eef2ff}
+.explain-header h4{margin:0 0 6px}
+.explain-result pre{white-space:pre-wrap;word-break:break-word;background:#fbfdff;padding:10px;border-radius:6px;border:1px solid #f0f9ff}
+.token-bar{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;padding:8px;border-radius:8px;border:1px dashed #e6eef2;background:#fff}
+.token{padding:6px 8px;border-radius:6px;color:white;font-weight:600}
+.feature-list{margin:8px 0 0 18px}
+.feature-list li{margin:2px 0}
+
+/* SHAP bar chart */
+.shap-bar{display:flex;align-items:center;gap:8px;margin:6px 0}
+.shap-bar .label{width:160px;font-weight:600}
+.shap-bar .bar-outer{flex:1;background:#f3f4f6;border-radius:6px;height:14px;overflow:hidden}
+.shap-bar .bar-inner{height:100%}
+.shap-score{width:70px;text-align:right;font-variant-numeric:tabular-nums}

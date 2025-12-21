@@ -123,6 +123,7 @@ project/
 ├── deployment/            # Dockerfile and deployment configs
 │   └── app/               # FastAPI application
 |       └── model/         # Model Inference Script
+|       └── static/        # Web development
 ├── notebooks/             # Exploratory Data Analysis & Model Development
 ├── utils/                 # Custom modules
 └── README.md
