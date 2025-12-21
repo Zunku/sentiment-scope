@@ -4,6 +4,7 @@ COPY ./requirements.txt /app/requirements.txt
 COPY ./app /app/app
 
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+# Install the app custom utils
 RUN pip install /app/app/.
 
 

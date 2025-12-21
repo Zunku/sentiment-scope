@@ -9,4 +9,14 @@ scipy==1.16.3
 threadpoolctl==3.6.0
 tqdm==4.67.1
 
+# Web UI dependencies
+# If you are using tiangolo/uvicorn-gunicorn-fastapi-docker image, these dependencies are already included.
+fastapi==0.101.1
+uvicorn[standard]==0.23.2
+jinja2==3.1.2
+aiofiles==23.2.1
+
 # To access this necesary dependencies have to created a special environment only for docker. And then start iterating installing the dependencies that are missing when building the docker image. The terminal will show the missing dependencies.
+
+# Install the app custom utils on the custom environment to run locally
+# -e ./

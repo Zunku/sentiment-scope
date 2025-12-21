@@ -7,4 +7,4 @@ setup(
     install_requires=[],  # agrega dependencias si ocupas
 )
 
-# pip install -e . Crea un link simbolico al codigo, asi se actualiza solo mientras desarrollas
+# pip install -e . Crea un link simbolico al paquete custom (utilities) codigo, asi se actualiza solo mientras desarrollas

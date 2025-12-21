@@ -1,0 +1,24 @@
+:root{
+  --bg:#f6f7fb;
+  --card:#ffffff;
+  --accent:#3b82f6;
+  --text:#0f172a;
+  --muted:#6b7280;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);margin:0}
+.container{max-width:720px;margin:48px auto;padding:16px}
+header h1{margin:0 0 4px;font-size:1.6rem}
+.muted{color:var(--muted)}
+.card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(15,23,42,0.06);margin-top:18px}
+label{display:block;margin-bottom:8px;font-weight:600}
+textarea{width:100%;padding:12px;border-radius:8px;border:1px solid #e6e9ef;resize:vertical;font-size:0.95rem}
+.actions{display:flex;align-items:center;gap:12px;margin-top:12px}
+button{background:var(--accent);color:white;padding:10px 14px;border-radius:8px;border:0;cursor:pointer;font-weight:600}
+button:disabled{opacity:.6;cursor:default}
+.result{margin-top:16px;padding:12px;border-radius:8px;border:1px solid #eef2ff}
+.hidden{display:none}
+.probability{height:12px;background:#eef2ff;border-radius:999px;margin-top:8px;overflow:hidden}
+.bar{height:100%;width:0;background:linear-gradient(90deg,var(--accent),#06b6d4)}
+.small{font-size:0.85rem}
+footer{margin-top:18px;text-align:center}

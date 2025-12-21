@@ -71,7 +71,7 @@ typing-inspection==0.4.2
 typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.6.0
--e git+https://github.com/Zunku/sentiment-analysis-ml.git@e7ebb05713d415740d8c701f70b0ebd8b3226957#egg=utils
+# -e git+https://github.com/Zunku/sentiment-analysis-ml.git@e7ebb05713d415740d8c701f70b0ebd8b3226957#egg=utils
 wcwidth==0.2.14
 wordcloud==1.9.4
 xyzservices==2025.11.0
