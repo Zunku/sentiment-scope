@@ -6,7 +6,7 @@ COPY ./app /app/app
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 # Install the app custom utils
 RUN pip install /app/app/.
-
+RUN python -c "import nltk; [nltk.download(pkg) for pkg in ('stopwords','rslp','punkt','wordnet')]"
 
 # Remember to consider routes, docker containers have their own file system.
 # Inside the /deployment directory:
