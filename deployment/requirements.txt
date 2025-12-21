@@ -15,7 +15,8 @@ fastapi==0.101.1
 uvicorn[standard]==0.23.2
 jinja2==3.1.2
 aiofiles==23.2.1
-
+pydantic==2.4.0
+starlette==0.27.0
 # To access this necesary dependencies have to created a special environment only for docker. And then start iterating installing the dependencies that are missing when building the docker image. The terminal will show the missing dependencies.
 
 # Install the app custom utils on the custom environment to run locally
