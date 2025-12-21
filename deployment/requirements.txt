@@ -1,23 +1,40 @@
+aiofiles==23.2.1
+annotated-types==0.7.0
+anyio==4.12.0
 click==8.3.1
+cloudpickle==3.1.2
 colorama==0.4.6
+fastapi==0.101.1
+h11==0.16.0
+httptools==0.7.1
+idna==3.11
+Jinja2==3.1.2
 joblib==1.5.2
+llvmlite==0.46.0
+MarkupSafe==3.0.3
 nltk==3.9.2
+numba==0.63.1
 numpy==2.3.5
+packaging==25.0
+pandas==2.3.3
+pydantic==2.12.5
+pydantic_core==2.41.5
+python-dateutil==2.9.0.post0
+python-dotenv==1.2.1
+pytz==2025.2
+PyYAML==6.0.3
 regex==2025.11.3
 scikit-learn==1.7.2
 scipy==1.16.3
+shap==0.50.0
+six==1.17.0
+slicer==0.0.8
+starlette==0.27.0
 threadpoolctl==3.6.0
 tqdm==4.67.1
-
-# Web UI dependencies
-# If you are using tiangolo/uvicorn-gunicorn-fastapi-docker image, these dependencies are already included.
-fastapi==0.101.1
-uvicorn[standard]==0.23.2
-jinja2==3.1.2
-aiofiles==23.2.1
-pydantic==2.4.0
-starlette==0.27.0
-# To access this necesary dependencies have to created a special environment only for docker. And then start iterating installing the dependencies that are missing when building the docker image. The terminal will show the missing dependencies.
-
-# Install the app custom utils on the custom environment to run locally
-# -e ./
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+tzdata==2025.3
+uvicorn==0.23.2
+watchfiles==1.1.1
+websockets==15.0.1
