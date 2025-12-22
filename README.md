@@ -8,8 +8,10 @@
 [![Docker](https://img.shields.io/badge/Docker-Container-0078d7?style=for-the-badge&logo=docker&logoColor=white&labelColor=101010&logoSize=auto)](https://hub.docker.com)
 [![Jupyter NB](https://img.shields.io/badge/Jupyter-notebooks-orange?style=for-the-badge&logo=jupyter&logoColor=white&labelColor=101010&logoSize=auto)](https://jupyter.org)
 ![MLOps](https://img.shields.io/badge/MLOps-101010?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-101010?style=for-the-badge&logo=javascript&logoColor=white)
 
-![](./assets/github-cover.png)
+
+![](./assets/Animation.gif)
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
@@ -22,6 +24,9 @@
 </p>
 
 <center> <b> SentimentScope </b> is an end-to-end sentiment analysis (NLP) project designed to demonstrate real-world machine learning engineering and MLOps skills. From exploratory data analysis to automated cloud retraining pipelines, this project showcases the full lifecycle of an ML system: exploration, modeling, deployment, monitoring, and scalability. </center>
+<br>
+
+<b>Try it online! <a herf="http://fastapiex.webhop.me">SentimentScope</a> </b>
 
 ## Key Features
 - 📊 Complete Exploratory Data Analysis using Jupyter Notebooks
@@ -30,6 +35,7 @@
 - ☁ Cloud-based training and automated retraining using Azure Machine Learning Pipelines
 - 🌐 REST API built with FastAPI for real-time predictions
 - 🐳 Dockerized deployment workflow for local and production environments
+- 💛 Online interface for the end user with JavaScript
 
 ---
 
@@ -73,6 +79,7 @@ This project integrates with Azure Machine Learning to simulate **production-gra
 
 ### Cloud Capabilities
 - Remote compute clusters for **scalable model training**
+- Container registry for **continuous deployment**
 - Dataset registration for versioned and reproducible data
 - Environment dependencies tracked via conda specification
 - Experiment tracking and model registry with MLFlow
@@ -94,7 +101,7 @@ A high-performance REST API exposes the model for **real-time** sentiment predic
 ### API Features
 - POST endpoint for sending text and receiving predictions
 - Built-in schema validation via Pydantic
-- More under construction
+- Machine Learning Explainability for each prediction
 
 The API integrates directly with the serialized preprocessing + modeling pipeline to ensure consistent predictions.
 
@@ -122,7 +129,7 @@ project/
 ├── data/                  # Dataset handling
 ├── deployment/            # Dockerfile and deployment configs
 │   └── app/               # FastAPI application
-|       └── model/         # Model Inference Script
+|       └── model/         # Model Inference Script and model.pkl
 |       └── static/        # Web development
 ├── notebooks/             # Exploratory Data Analysis & Model Development
 ├── utils/                 # Custom modules
@@ -175,7 +182,6 @@ docker run -p 80:80 sentiment-analysis
 ---
 
 ## Future Improvements
-- Creating an interfaz to interact with the API
 - Batch inference system
 - Full CI/CD integration with GitHub Actions
 
