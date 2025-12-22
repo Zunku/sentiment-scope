@@ -24,9 +24,8 @@
 </p>
 
 <center> <b> SentimentScope </b> is an end-to-end sentiment analysis (NLP) project designed to demonstrate real-world machine learning engineering and MLOps skills. From exploratory data analysis to automated cloud retraining pipelines, this project showcases the full lifecycle of an ML system: exploration, modeling, deployment, monitoring, and scalability. </center>
-<br>
 
-<b>Try it online! <a herf="http://fastapiex.webhop.me">SentimentScope</a> </b>
+<h4>Try it online! <a href="http://fastapiex.webhop.me" target="_blank">SentimentScope</a></h4>
 
 ## Key Features
 - 📊 Complete Exploratory Data Analysis using Jupyter Notebooks
