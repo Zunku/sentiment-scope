@@ -15,6 +15,7 @@
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
+  <a href="#how-it-works">How it works?</a> •
   <a href="#exploratory-data-analysis-eda">EDA</a> •
   <a href="#model-development">Model Development</a> •
   <a href="#api-development-with-fastapi">API & Docker</a> •
@@ -37,6 +38,8 @@
 - 💛 Online interface for the end user with JavaScript
 
 ---
+## How it works?
+![](./assets/Diagrama.png)
 
 ## Exploratory Data Analysis (EDA)
 The analysis begins in Jupyter Notebooks, where the dataset is deeply explored to understand:
